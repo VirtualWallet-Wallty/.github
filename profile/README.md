@@ -8,8 +8,6 @@
 
 <br/>
 
----
-
 ### Wallty is separated across 3 repositories
 
 📱 **Android Client** - _Kotlin · Jetpack Compose · MVVM_
@@ -60,6 +58,8 @@
 | 🔐 **Role-based access**       | User and admin roles with controlled access to sensitive operations                                                         |
 | 🌐 **Bilingual UI**            | English and Bulgarian language support                                                                                      |
 
+---
+
 <br/>
 
 ## 🚀 How to Run
@@ -70,9 +70,21 @@
 
 ### 2. Complete all steps from [Client (android)](https://github.com/VirtualWallet-Wallty/android/blob/main/README.md)
 
+---
+
 <br/>
 
 <div align="center">
+
+## 🏗 Architecture
+
+Wallty follows a client-server architecture. The Android app communicates with a Spring Boot REST API over HTTP, which handles all business logic, security, and data persistence. An external exchange rate API is integrated on the backend side to support multi-currency operations.
+
+<img src="https://raw.githubusercontent.com/VirtualWallet-Wallty/docs/main/demo-assets/schemas/architecture.png" alt="Architecture Diagram" width="800"/>
+
+---
+
+<br/>
 
 ## 📸 Screenshots
 ### Login & Registration
